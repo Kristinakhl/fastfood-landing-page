@@ -503,25 +503,25 @@ padding: 100px 0;
     
 }
 
-.footer__menu {
-    /* grid-area: menu; */
-}
 
-.footer__list-title {
-}
-.footer_inner-list {
-}
 .footer__list-item + .footer__list-item {
     margin-top: 15px;
 }
-.footer__socials {
-}
-.p {
-}
-.footer__socials-icons {
-}
+
 .footer__socials-link + .footer__socials-link {
     margin-left: 8px;
+}
+
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 
